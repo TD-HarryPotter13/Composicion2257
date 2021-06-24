@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package herencia2257;
+
+import ico.fes.herencia.Alumno;
+
+
+
+/**
+ *
+ * @author estra
+ */
+public class Herencia2257 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Alumno prueba1= new Alumno("318052322", "ICO", 2, "Brandon Estrada", 19, 1, 1.85f);
+        System.out.println("Nombre:"+prueba1.getNombre());
+        System.out.println("Edad:"+prueba1.getEdad());
+        System.out.println("Genero:"+prueba1.getGenero());
+        System.out.println("Estatura:"+prueba1.getAltura());
+        System.out.println("Datos Escolares"+prueba1);
+
+    }
+    
+}
